@@ -1,0 +1,7 @@
+{
+  "name": "TI_Net_2026_MyBouffe.Mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
