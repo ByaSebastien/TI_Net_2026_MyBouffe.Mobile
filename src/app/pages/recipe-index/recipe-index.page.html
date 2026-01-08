@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>recipe-index</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  @for (r of recipes; track r.id){
+    <ion-item (click)="diplayAction()">
+      <span class="ion-padding">{{r.name}}</span>
+    </ion-item>
+  } @empty {
+    <ion-item>
+      <span>Pas de recette</span>
+    </ion-item>
+  }
+</ion-content>
