@@ -17,9 +17,6 @@
     ```
   - set env variables 
     - ANDROID_HOME = C:\Android
-    - PATH += %ANDROID_HOME%\cmdline-tools\latest\bin
-    - PATH += %ANDROID_HOME%\platform-tools
-    - PATH += %ANDROID_HOME%\emulator
     - %ANDROID_HOME%\cmdline-tools\latest\bin
     - %ANDROID_HOME%\platform-tools
     - %ANDROID_HOME%\build-tools\34.0.0
