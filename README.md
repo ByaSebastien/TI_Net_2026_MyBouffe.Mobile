@@ -54,4 +54,16 @@ ionic cap run android --external --livereload
 
 # Acceder au debugger
 
-sur navigateur chromium : chrome://inspect
+sur navigateur chromium : chrome://
+
+# Contacterapi local
+
+## Ngrok
+
+1. Creer un compte ngrok
+2. Telecharger ngrok
+3. rajouter dans les variable d env (path) je chemin vers ngrok
+4. ```shell
+   ngrok http https://localhost:8080
+   ```
+5. Contacter l'url fournis par ngrok dans votre front
